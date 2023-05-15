@@ -20,10 +20,10 @@ ln -s "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code" ~/u
 sleep 1
 echo "Add the ~/usr/local/bin directory to your PATH variable \n"
 
-echo 'export PATH="$HOME/usr/local/bin:$PATH"' >> ~/..zshrc
+echo 'export PATH="$HOME/usr/local/bin:$PATH"' >> ~/.zshrc
 
 sleep 1
 # Reload the shell configuration file
-source ~/..zshrc
+source ~/.zshrc
 
 echo "just completed."
