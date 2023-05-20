@@ -1,3 +1,9 @@
+This repository provides a simple bash script that allows you to open files or folders in Visual Studio Code (VSCode) directly from the command line.
+
+```
+    code path
+```
+
 ## Installation
 
 1. Clone this repository using the following command:
