@@ -23,7 +23,8 @@ echo "Add the ~/usr/local/bin directory to your PATH variable \n"
 echo 'export PATH="$HOME/usr/local/bin:$PATH"' >> ~/.zshrc
 
 sleep 1
-# Reload the shell configuration file
+echo "Reload the shell configuration file \n";
+
 source ~/.zshrc
 
-echo "just completed."
+echo "just completed. if any error, please reload  the terminal."
